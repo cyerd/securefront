@@ -8,10 +8,10 @@ export default {
   ],
   theme: {
     screens: {
-      'xs': '400px',
+      'xs': '200px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '640px',
+      'md': '720px',
       // => @media (min-width: 640px) { ... }
 
 
