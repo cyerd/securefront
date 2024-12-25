@@ -16,7 +16,7 @@ function About() {
             alt="About Us"
             layout="fill"
             objectFit="cover"
-            objectPosition="10px 1%"
+            
             className="rounded-lg"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
