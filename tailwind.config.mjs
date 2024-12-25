@@ -8,7 +8,11 @@ export default {
   ],
   theme: {
     screens: {
+<<<<<<< HEAD
       'xs': '200px',
+=======
+      'xs': '640px',
+>>>>>>> 790a7dbaf5e43a7055e44e58bdf83b4b2252dc16
       // => @media (min-width: 640px) { ... }
 
       'md': '720px',
