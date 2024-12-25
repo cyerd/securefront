@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Dashboard() {
   const [text] = useTypewriter({
@@ -35,7 +36,7 @@ function Dashboard() {
           </p>
           <div className="absolute bottom-0 w-full">
             <Image
-              src="/assets/images/hero-background.jpg"
+              src="/assets/images/bg.PNG"
               alt="SecureFront Hero"
               layout="fill"
               objectFit="cover"
@@ -98,30 +99,20 @@ function Dashboard() {
           </div>
         </section>
 
-        {/* Why Choose Us Section */}
-        <section className="mt-16 px-5 bg-gray-100 py-10">
-          <h2 className="text-4xl font-extrabold text-center text-teal-700">Why Choose Us?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 max-w-5xl mx-auto">
-            <div className="bg-white shadow-md rounded-lg p-5 text-center hover:shadow-lg">
-              <h3 className="text-2xl font-semibold">Expert Team</h3>
-              <p className="mt-3 text-gray-600">
-                A diverse group of professionals with extensive experience in security and risk management.
-              </p>
-            </div>
-            <div className="bg-white shadow-md rounded-lg p-5 text-center hover:shadow-lg">
-              <h3 className="text-2xl font-semibold">Customized Solutions</h3>
-              <p className="mt-3 text-gray-600">
-                Tailored strategies to address your unique security challenges effectively.
-              </p>
-            </div>
-            <div className="bg-white shadow-md rounded-lg p-5 text-center hover:shadow-lg">
-              <h3 className="text-2xl font-semibold">Commitment to Excellence</h3>
-              <p className="mt-3 text-gray-600">
-                Dedicated to delivering superior services with integrity and professionalism.
-              </p>
-            </div>
-          </div>
-        </section>
+        {/* WhatsApp Icon */}
+        <div className="fixed bottom-5 right-5 z-50">
+          <a
+            href="https://wa.me/+254727337380" // Replace with your WhatsApp number
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-transform transform hover:scale-110"
+            style={{
+              boxShadow: "0 8px 15px rgba(0, 0, 0, 0.2)",
+            }}
+          >
+            <FaWhatsapp className="text-2xl lg:text-3xl" />
+          </a>
+        </div>
 
         {/* Footer Section */}
         <footer className="mt-16 py-10 bg-teal-700 text-white text-center">
