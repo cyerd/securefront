@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SecureFront",
   description: "Guardian of Trust",
+  
 };
 
 export default function RootLayout({ children }) {
