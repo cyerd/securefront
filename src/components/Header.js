@@ -66,7 +66,7 @@ export default function Header() {
                   >
                     <span className="absolute -inset-1.5" />
                     <span className="sr-only">View notifications</span>
-                    <twitter aria-hidden="true" className="size-8" />
+                    
                   </button>
 
               
