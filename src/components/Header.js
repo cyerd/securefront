@@ -2,6 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from 'next/link'
+import { FaWhatsapp } from 'react-icons/fa'
 import { SocialIcon } from 'react-social-icons'
 
 
@@ -101,7 +102,20 @@ export default function Header() {
                 </DisclosureButton>
               ))}
             </div>
-            
+                    {/* WhatsApp Icon */}
+                    <div className="fixed top-5 right-5 z-50">
+                      <a
+                        href="https://wa.me/+254727337380" // Replace with your WhatsApp number
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-transform transform hover:scale-110"
+                        style={{
+                          boxShadow: "0 8px 15px rgba(0, 0, 0, 0.2)",
+                        }}
+                      >
+                        <FaWhatsapp className="text-2xl lg:text-3xl" />
+                      </a>
+                    </div>
           </DisclosurePanel>
         </Disclosure>
 
