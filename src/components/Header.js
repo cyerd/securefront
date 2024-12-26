@@ -20,7 +20,6 @@ function classNames(...classes) {
 }
 
 export default function Header() {
-  const twitter = <SocialIcon url="https://twitter.com" />
   return (
     <>
 
@@ -57,6 +56,7 @@ export default function Header() {
                       </a>
                     ))}
                   </div>
+                  
                 </div>
               </div>
               <div className="hidden md:block">
@@ -84,6 +84,20 @@ export default function Header() {
               </div>
             </div>
           </div>
+                       {/* WhatsApp Icon */}
+                       <div className="fixed bottom-5 right-5 z-50">
+                      <a
+                        href="https://wa.me/+254727337380" // Replace with your WhatsApp number
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-transform transform hover:scale-110"
+                        style={{
+                          boxShadow: "0 8px 15px rgba(0, 0, 0, 0.2)",
+                        }}
+                      >
+                        <FaWhatsapp className="text-2xl lg:text-3xl" />
+                      </a>
+                    </div>
 
           <DisclosurePanel className="md:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
@@ -102,20 +116,7 @@ export default function Header() {
                 </DisclosureButton>
               ))}
             </div>
-                    {/* WhatsApp Icon */}
-                    <div className="fixed top-5 right-5 z-50">
-                      <a
-                        href="https://wa.me/+254727337380" // Replace with your WhatsApp number
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-transform transform hover:scale-110"
-                        style={{
-                          boxShadow: "0 8px 15px rgba(0, 0, 0, 0.2)",
-                        }}
-                      >
-                        <FaWhatsapp className="text-2xl lg:text-3xl" />
-                      </a>
-                    </div>
+       
           </DisclosurePanel>
         </Disclosure>
 
