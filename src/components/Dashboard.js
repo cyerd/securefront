@@ -23,40 +23,45 @@ function Dashboard() {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-teal-100">
+    <div className="min-h-screen bg-gradient-to-b from-gray-100 to-teal-100">
       <main>
         {/* Hero Section */}
-        <section className="relative h-[60vh] bg-teal-600 text-white flex flex-col items-center justify-center text-center">
-          <h1 className="text-4xl lg:text-5xl font-bold px-5">
-            <span>{text}</span>
-            <Cursor cursorColor="#f7ab0a" />
-          </h1>
-          <p className="mt-4 text-lg lg:text-xl px-5">
+        <div className="relative">
+          <Image
+            src="/assets/images/team.jpg"
+            width={1920}
+            height={680}
+            alt="Investigation"
+            className="w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center flex-col justify-center">
+            {/* <h1 className="text-white text-5xl sm:text-sm overflow:hidden text-center justtify-center font-bold">
+              <span>
+              {text}
+              <Cursor cursorColor="#f7ab0a" />
+              </span>
+              </h1> */}
+              <p className="mt-4 text-2xl text-gray-50 lg:text-3xl sm:md text-center px-5">
             Empowering businesses with cutting-edge security solutions tailored to meet evolving challenges.
           </p>
-          <div className="absolute bottom-0 w-full">
-            <Image
-              src="/assets/images/bg.PNG"
-              alt="SecureFront Hero"
-              layout="fill"
-              objectFit="cover"
-              className="opacity-40"
-            />
           </div>
-        </section>
+        </div>
 
         {/* About Us Section */}
         <section className="mt-16 px-5 text-center">
-          <h2 className="text-4xl font-extrabold text-teal-700">About Us</h2>
-          <p className="text-lg lg:text-xl mt-5 leading-8 text-gray-700 max-w-3xl mx-auto">
-            SecureFront Consultants and Advisors is dedicated to delivering top-tier security solutions tailored to the unique needs of each client. With extensive expertise and unwavering commitment to excellence, we empower our clients to navigate the complexities of today’s security landscape with confidence.
-          </p>
+          <h2 className="text-4xl font-extrabold text-teal-700">Welcome to SecureFront Consultants and Advisors</h2>
+          <p className="text-lg lg:text-xl mt-5 leading-8 max-w-3xl mx-auto">
+                      
+            SecureFront is a premier security consulting firm specializing in tailored solutions to safeguard businesses and individuals. Our expertise includes investigations, fraud detection and prevention, background checks, and compliance support, addressing diverse security needs in today’s evolving threat landscape.  
+
+            With a team of skilled analysts, ethical hackers, and strategic advisors, we deliver proactive, comprehensive servicesn to protect assets, mitigate risks, and ensure peace of mind. Trust SecureFront for reliable, expert-driven security solutions.
+            </p>
         </section>
 
         {/* Services Section */}
         <section className="mt-16 px-5">
           <h2 className="text-4xl font-extrabold text-center text-teal-700">Our Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+          <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
             <div className="bg-white shadow-md rounded-lg p-5 text-center hover:shadow-lg transition-transform transform hover:scale-105">
               <Image
                 src="/assets/images/security-risk.jpeg"

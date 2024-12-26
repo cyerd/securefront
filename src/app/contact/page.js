@@ -40,34 +40,34 @@ function page() {
 
           <div className="flex flex-wrap justify-center gap-10 px-10">
             {/* Email Section */}
-            <div className="flex flex-col items-center text-center bg-gray-100 p-5 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="flex flex-col items-center text-center bg-teal-50 text-teal-800 p-5 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <EnvelopeIcon className="h-12 mb-3 text-teal-400" />
-              <h3 className="font-semibold text-gray-800">SECUREFRONT</h3>
+              <h3 className="font-semibold text-teal-800">SECUREFRONT</h3>
               <p>info@securefront.com</p>
               <p>P.O Box 10780-00100</p>
               <p>Nairobi, Kenya</p>
             </div>
 
             {/* Phone Section */}
-            <div className="flex flex-col items-center text-center bg-gray-100 p-5 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="flex flex-col items-center text-center bg-teal-50 p-5 rounded-lg text-teal-800 shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <PhoneIcon className="h-12 mb-3 text-teal-400" />
-              <h3 className="font-semibold text-gray-800">Office</h3>
+              <h3 className="font-semibold text-teal-800">Office</h3>
               <p>0727337380</p>
               <p>Nairobi, Kenya</p>
             </div>
 
             {/* Working Hours Section */}
-            <div className="flex flex-col items-center text-center bg-gray-100 p-5 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="flex flex-col items-center text-center bg-teal-50 text-teal-800 p-5 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <ClockIcon className="h-12 mb-3 text-teal-400" />
-              <h3 className="font-semibold text-gray-800">Working Hours</h3>
+              <h3 className="font-semibold text-teal-800">Working Hours</h3>
               <p>Mon - Sat</p>
               <p>9am - 6pm</p>
             </div>
 
             {/* Address Section */}
-            <div className="flex flex-col items-center text-center bg-gray-100 p-5 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="flex flex-col items-center text-center bg-teal-50 p-5 text-teal-800 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <MapPinIcon className="h-12 mb-3 text-teal-400" />
-              <h3 className="font-semibold text-gray-800">
+              <h3 className="font-semibold text-teal-800">
                 View Park Towers, Mezanine Suite
               </h3>
               <p>Utalii St, Nairobi</p>

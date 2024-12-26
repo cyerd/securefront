@@ -8,7 +8,7 @@ function About() {
       <Header />
 
       {/* About Section */}
-      <div className="flex flex-col items-center bg-gradient-to-b from-indigo-100 via-indigo-200 to-indigo-300 text-center py-10">
+      <div className="flex flex-col items-center bg-gradient-to-b from-teal-100 via-teal-200 to-teal-300 text-center py-10">
         {/* Hero Section */}
         <div className="relative w-full h-72 md:h-96">
           <Image
@@ -68,7 +68,7 @@ function About() {
         </div>
 
         {/* Footer Section */}
-        <div className="mt-16 bg-gradient-to-t from-indigo-200 via-indigo-300 to-indigo-400 w-full py-10 text-center">
+        <div className="mt-16 bg-gradient-to-t from-teal-200 via-teal-300 to-teal-400 w-full py-10 text-center">
           <p className="text-gray-800 font-medium">
             SecureFront Consultants & Advisors © {new Date().getFullYear()}
           </p>
